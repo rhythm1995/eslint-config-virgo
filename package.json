@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-egg",
-  "version": "7.5.1",
-  "description": "Node Style Guide for Egg.",
+  "name": "eslint-config-virgo",
+  "version": "1.0.0",
+  "description": "a code style for javascript.",
   "main": "index",
   "files": [
     ".eslintrc",
