@@ -6,6 +6,7 @@ module.exports = {
     './lib/rules/browser',
     './lib/rules/import',
     './lib/rules/react',
+    './lib/rules/vue',
     './lib/rules/react-a11y',
   ].map(require.resolve),
   parser: 'babel-eslint',

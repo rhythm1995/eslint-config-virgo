@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eggjs/eslint-config-egg"
+    "url": "https://github.com/eggjs/eslint-config-virgo"
   },
-  "homepage": "https://github.com/eggjs/eslint-config-egg",
-  "author": "popomore <sakura9515@gmail.com>",
+  "homepage": "https://github.com/eggjs/eslint-config-virgo",
+  "author": "bugzhang <nuptunee@gmail.com>",
   "scripts": {
     "autod": "autod",
     "lint": "eslint test/*.test.js lib *.js",
