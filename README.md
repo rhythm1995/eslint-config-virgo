@@ -149,4 +149,5 @@ module.exports = {
 ## License
 
 [MIT](LICENSE)
-基于eslint-config-egg、eslint-config-vue完成
+
+本规则基于eslint-config-egg、eslint-config-vue完成

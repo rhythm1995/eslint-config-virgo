@@ -32,9 +32,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eggjs/eslint-config-virgo"
+    "url": "https://github.com/rhythm1995/eslint-config-virgo"
   },
-  "homepage": "https://github.com/eggjs/eslint-config-virgo",
+  "homepage": "https://github.com/rhythm1995/eslint-config-virgo",
   "author": "bugzhang <nuptunee@gmail.com>",
   "scripts": {
     "autod": "autod",
