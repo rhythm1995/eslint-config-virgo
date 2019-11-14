@@ -24,104 +24,7 @@ module.exports = {
 };
 ```
 
-### 在vue中使用
-如果要在vue中使用此标准：
-
-- `.eslintrc.js`
-
-```js
-module.exports = {
-  extends: 'eslint-config-vergo',
-  // for experimental features support
-  parser: 'babel-eslint',
-  parserOptions: {
-    // for es6 module
-    sourceType: 'module',
-  },
-  plugins: [
-    'vue',
-  ],
-  rules: {
-    // see https://github.com/eslint/eslint/issues/6274
-    'generator-star-spacing': 'off',
-    'babel/generator-star-spacing': 'off',
-  },
-};
-```
-
-### 在react中使用
-如果要在react中使用此标准：
-
-- `.eslintrc.js`
-
-```js
-module.exports = {
-  extends: 'eslint-config-vergo',
-  // for experimental features support
-  parser: 'babel-eslint',
-  parserOptions: {
-    // for es6 module
-    sourceType: 'module',
-  },
-  plugins: [
-    'react',
-  ],
-  rules: {
-    // for variables in jsx
-    'react/jsx-uses-vars': 'error',
-    // see https://github.com/eslint/eslint/issues/6274
-    'generator-star-spacing': 'off',
-    'babel/generator-star-spacing': 'off',
-  },
-};
-```
-
-### 在node.js中使用此标准
-
-- `package.json`
-
-```json
-{
-  "devDependencies": {
-    "eslint-config-vergo": "7",
-    "eslint": "4",
-    "babel-eslint": "8"
-  }
-}
-```
-
-- `.eslintrc.js`
-
-```js
-module.exports = {
-  extends: 'eslint-config-vergo',
-  // for experimental features support
-  parser: 'babel-eslint',
-  rules: {
-    // see https://github.com/eslint/eslint/issues/6274
-    'generator-star-spacing': 'off',
-    'babel/generator-star-spacing': 'off',
-  }
-};
-```
-
-
-### 在ts项目中使用此标准
-
-- `.eslintrc.js`
-
-```js
-module.exports = {
-  extends: 'eslint-config-vergo/typescript',
-  parserOptions: {
-    // recommend to use another config file like tsconfig.eslint.json and extends tsconfig.json in it.
-    // because you may be need to lint test/**/*.test.ts but no need to emit to js.
-    // @see https://github.com/typescript-eslint/typescript-eslint/issues/890
-    project: './tsconfig.json'
-  }
-};
-```
-
+### 配置语言
 - `scripts`
 
 ```json
@@ -129,7 +32,7 @@ module.exports = {
   "lint": "eslint . --ext .ts"
 }
 ```
-
+# vscode配置
 - `settings.json` in vscode
 
 ```json
@@ -149,5 +52,3 @@ module.exports = {
 ## License
 
 [MIT](LICENSE)
-
-本规则基于eslint-config-egg、eslint-config-vue完成
