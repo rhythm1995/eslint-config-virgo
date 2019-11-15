@@ -1,6 +1,6 @@
 # eslint-config-virgo
 
-一套大一统ESlint标准，支持vue、react、node.js、typescript等项目，插件式配置
+一套大一统ESlint标准，支持vue、react、node.js等项目，插件式配置，是你保证项目质量的好帮手。
 
 virgo：处女座，代表洁癖、强迫，象征我们的代码规范和强迫症的处女座一样。
 
