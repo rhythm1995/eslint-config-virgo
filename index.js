@@ -88,12 +88,59 @@ module.exports = {
 		"no-multiple-empty-lines": 2, // Files should not have too many lines: 【禁止出现多行空行】
 		"camelcase": 1, // Function and method names should comply with a naming convention: 【强制驼峰命名法】
 		"no-dupe-args": 2, // Function argument names should be unique: 【函数参数名应该是唯一的】
-		
-		"no-debugger": 1, // 
-		"no-debugger": 1, // 
-		"no-debugger": 1, // 
-		"no-debugger": 1, // 
-		"no-debugger": 1, // 
+		"no-useless-constructor": 1, // Function constructors should not be used
+		"no-inner-declarations": 2, // Function declarations should not be made within blocks：【禁止在嵌套的块中出现变量声明或 function 声明】
+		"sonarjs/no-extra-arguments": 2, // Function calls should not pass extra arguments: 【函数调用不应传递额外的参数】
+		"sonarjs/no-identical-functions": 2, // Functions should not have identical implementations：【相同功能的函数不应该被多次实现】
+		"no-ex-assign": 2, // Function parameters, caught exceptions and foreach variables should not be reassigned:【禁止对 catch 子句的参数重新赋值y】
+		"consistent-return":2, // Function returns should not be invariant：【要求 return 总是返回指定不变的值】
+		"no-loop-func": 2, // Functions should not be defined inside loops: 【禁止在循环中出现 function 声明和表达式】
+		"max-params": 1, // Functions should not have too many parameters: 【函数最多允许3个参数】
+		"require-yield": 2, // Generators should "yield" something: 【Generators中必须有yield出现】
+		"sonarjs/no-identical-expressions":2,  // Identical expressions should not be used on both sides of a binary operator:  【在二进制运算符的两侧不应使用相同的表达式】
+		"sonarjs/no-redundant-jump": 2, // Jump statements should not be followed by dead code: 【跳转语句不应该跟死代码】
+		"no-unsafe-finally": 2, // Jump statements should not occur in "finally" blocks: 【禁止在 finally 语句块中出现控制流语句】
+		"no-unreachable": 2, // Jump statements should not be used unconditionally: 【禁止在return、throw、continue 和 break 语句之后出现不可达代】
+		"sonarjs/no-one-iteration-loop": 2, // Loops with at most one iteration should be refactored: 【只有迭代一次的循环应该被重构】
+		"sonarjs/prefer-immediate-return": 1, // Local variables should not be declared and then immediately returned or thrown: 【不应声明局部变量，然后立即返回或抛出】
+		"no-labels": 2, // Labels should not be used: 【禁用标签语句】 
+		"no-trailing-spaces": 1, // Lines should not end with trailing whitespaces: 【禁止行位空格】
+		"no-unmodified-loop-condition": 1, // Loops should not be infinite: 【禁用无限循环】
+		"no-multi-str": 1, // Multiline string literals should not be used: 【不应使用多行字符串文字】
+		"func-names": ["error", "never"], // Named function expressions should not be used: 【要求或禁止使用命名的 function 表达式】
+		"key-spacing": [
+      2,
+      {
+        // 强制在对象字面量的属性中键和值之间使用一致的间距
+        beforeColon: false,
+        afterColon: true
+      }
+		],
+		"object-shorthand": ["error", "always"], // Object literal shorthand syntax should be used / Object literal syntax should be used: 【应使用对象字面量简写语法】
+		"no-octal": 2, // Octal values should not be used: 【禁用八进制字面量】 
+		"sonarjs/prefer-object-literal": 1, // Object literal syntax should be used: 【应该使用对象字面语法】
+		"no-octal-escape": 2, // Octal values should not be used: 【禁止在字符串中使用八进制转义序列】
+		"accessor-pairs": 1, // Property getters and setters should come in pairs: 【强制 getter 和 setter 在对象中成对出现】
+		"no-extra-parens": 2, // Redundant pairs of parentheses should be removed: 【禁止不必要的括号】
+		"sonarjs/no-identical-conditions": 2, // Related "if/else if" statements should not have the same condition: 【相关的“if/else if”语句不应该具有相同的条件】
+		"prefer-single-boolean-return": 1, // Return of boolean expressions should not be wrapped into an "if-then-else" statement: 【布尔表达式的返回不应被封装到"if-else if-else"语句中】
+		"jsx-quotes": [1, "prefer-double"], // Single quotes should be used for string literals 【强制在 JSX 属性中一致地使用双引号】
+		"quotes": [
+      1,
+      "single", // Single quotes should be used for string literals：【尽可能使用单引号】
+      {
+        // 强制使用一致的反勾号、双引号或单引号
+        avoidEscape: true, // 允许字符串使用单引号或双引号，只要字符串中包含了一个其它引号，否则需要转义
+        allowTemplateLiterals: true // 允许字符串使用反勾号
+      }
+    ],
+		"no-irregular-whitespace": 1, // Source files should have a sufficient density of comment lines: 【禁止在字符串和注释之外不规则的空白】
+		"sonarjs/no-duplicate-string": 1, // String literals should not be duplicated: 【字符串文本不应重复】
+		"semi": ["error", "always"], // Statements should end with semicolons: 【语句强制分号】
+		"no-useless-concat": 2, // Template literal placeholder syntax should not be used in regular strings: 【禁止不必要的字符串字面量或模板字面量的连接】
+		"prefer-template": 1, // Template strings should be used instead of concatenation: 【要求使用模板字面量而非字符串连接】
+		""
+
 
 
     "accessor-pairs": 2, // 强制 getter 和 setter 在对象中成对出现
