@@ -1,24 +1,31 @@
 {
-  "name": "eslint-config-vui",
-  "version": "1.0.1",
-  "description": "为 jquery-vui 内部开发量身定制的一套 eslint 规则",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shiguang0116/eslint-config-vui.git"
-  },
-  "keywords": [
-    "eslint",
-    "jquery-vui"
-  ],
-  "author": "guang.shi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shiguang0116/eslint-config-vui/issues"
-  },
-  "homepage": "https://github.com/shiguang0116/eslint-config-vui#readme",
-  "dependencies": {
-    "eslint-plugin-filenames": "^1.3.2",
-    "eslint-plugin-sonarjs": "^0.5.0"
-  }
+	"name": "eslint-config-virgo",
+	"version": "1.0.0",
+	"description": "eslint configuration to ensure SonarJS rules are met",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rhythm1995/eslint-config-virgo.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslintrc",
+		"eslintconfig",
+		"javascript",
+		"styleguide",
+		"react",
+		"vue",
+		"sonar",
+		"eslint-config-virgo"
+	],
+	"author": "bugzhang",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/shiguang0116/eslint-config-vui/issues"
+	},
+	"homepage": "https://github.com/shiguang0116/eslint-config-vui#readme",
+	"dependencies": {
+		"eslint-plugin-filenames": "^1.3.2",
+		"eslint-plugin-sonarjs": "^0.5.0"
+	}
 }
