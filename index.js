@@ -85,7 +85,6 @@ module.exports = {
     "no-unexpected-multiline": 2, // Expressions should not be too complex: 【禁止出现令人困惑的多行表达式】
     "eol-last": 2, // Files should contain an empty newline at the end: 【文件末尾应该有一个空行】
     "no-multiple-empty-lines": 2, // Files should not have too many lines: 【禁止出现多行空行】
-    camelcase: 1, // Function and method names should comply with a naming convention: 【强制驼峰命名法】
     "no-dupe-args": 2, // Function argument names should be unique: 【函数参数名应该是唯一的】
     "no-useless-constructor": 1, // Function constructors should not be used
     "no-inner-declarations": 2, // Function declarations should not be made within blocks：【禁止在嵌套的块中出现变量声明或 function 声明】
