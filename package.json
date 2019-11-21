@@ -21,9 +21,9 @@
 	"author": "bugzhang",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/shiguang0116/eslint-config-vui/issues"
+		"url": "https://github.com/rhythm1995/eslint-config-virgo/issues"
 	},
-	"homepage": "https://github.com/shiguang0116/eslint-config-vui#readme",
+	"homepage": "https://github.com/rhythm1995/eslint-config-virgo#readme",
 	"dependencies": {
 		"eslint-plugin-filenames": "^1.3.2",
 		"eslint-plugin-sonarjs": "^0.5.0"
