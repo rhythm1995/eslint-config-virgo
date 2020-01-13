@@ -121,7 +121,7 @@ module.exports = {
     "accessor-pairs": 1, // Property getters and setters should come in pairs: 【强制 getter 和 setter 在对象中成对出现】
     "no-extra-parens": 2, // Redundant pairs of parentheses should be removed: 【禁止不必要的括号】
     "sonarjs/no-identical-conditions": 2, // Related "if/else if" statements should not have the same condition: 【相关的“if/else if”语句不应该具有相同的条件】
-    "prefer-single-boolean-return": 1, // Return of boolean expressions should not be wrapped into an "if-then-else" statement: 【布尔表达式的返回不应被封装到"if-else if-else"语句中】
+    // "prefer-single-boolean-return": 1, // Return of boolean expressions should not be wrapped into an "if-then-else" statement: 【布尔表达式的返回不应被封装到"if-else if-else"语句中】
     "jsx-quotes": [1, "prefer-double"], // Single quotes should be used for string literals 【强制在 JSX 属性中一致地使用双引号】
     quotes: [
       1,
@@ -135,14 +135,14 @@ module.exports = {
     "no-irregular-whitespace": 1, // Source files should have a sufficient density of comment lines: 【禁止在字符串和注释之外不规则的空白】
     "sonarjs/no-duplicate-string": 1, // String literals should not be duplicated: 【字符串文本不应重复】
     semi: ["error", "always"], // Statements should end with semicolons: 【语句强制分号】
-    "sonarjs/sonarjsno-small-switch": 1, // Switch cases should end with an unconditional "break" statement: 【switch 应该终止于break】
+    // "sonarjs/sonarjsno-small-switch": 1, // Switch cases should end with an unconditional "break" statement: 【switch 应该终止于break】
     "no-useless-concat": 2, // Template literal placeholder syntax should not be used in regular strings: 【禁止不必要的字符串字面量或模板字面量的连接】
     "prefer-template": 1, // Template strings should be used instead of concatenation: 【要求使用模板字面量而非字符串连接】
     "no-nested-ternary": 1, // Ternary operators should not be nested: 【三元运算符不应嵌套】
     radix: 2, // The base should be provided to "parseInt": 【强制在parseInt()使用基数参数】
     "no-invalid-this": 1, // The global "this" object should not be used: 【禁止 this 关键字出现在类和类对象之外】
     "sonarjs/no-use-of-empty-return-value": 2, // The output of functions that don't return anything should not be used: 【不应使用不返回任何内容的函数的输出】
-    "no-ternary": 1, // The ternary operator should not be used: 【不应使用三元运算符】
+    // "no-ternary": 1, // The ternary operator should not be used: 【不应使用三元运算符】
     "comma-dangle": 2, // Trailing commas should be used: 【要求使用尾随逗号】
     "prefer-const": 2, // Unchanged variables should be marked "const": 【要求使用 const 声明那些声明后不再被修改的变量】
     "no-implicit-globals": 2, // Variables and functions should not be declared in the global scope: 【禁止在全局范围内使用变量声明和 function 声明】
