@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-virgo",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "eslint configuration to ensure SonarJS rules are met",
 	"main": "index.js",
 	"repository": {

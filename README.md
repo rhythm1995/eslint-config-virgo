@@ -18,6 +18,19 @@ npm i eslint eslint-config-vergo --save-dev
 
 ### 常规使用
 
+- `package.json`（建议方式）
+```js
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint-config-virgo"
+    ]
+  }
+```
+
 - `.eslintrc.js`
 
 ```js
